@@ -8,7 +8,8 @@ print("Downloaded to cache:", src_path)
 
 # Destination inside your project
 dst_dir = Path("/home/rgerc/Projects/beverage-sales/data/raw")
-dst_dir.mkdir(parents=True, exist_ok=True)
+# If it is the first time, you may want to create the destination directory:
+# dst_dir.mkdir(parents=True, exist_ok=True)
 
 # Copy files from cache to project
 for item in src_path.rglob("*"):
