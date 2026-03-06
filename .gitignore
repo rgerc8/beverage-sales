@@ -1,4 +1,4 @@
-data/raw/
+data/raw/synthetic_beverage_sales_data.csv
 .venv/
 __pycache__/
 .ipynb_checkpoints/
