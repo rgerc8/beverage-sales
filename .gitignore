@@ -1,4 +1,5 @@
 data/raw/synthetic_beverage_sales_data.csv
+data/silver/sales_transformed.parquet
 .venv/
 __pycache__/
 .ipynb_checkpoints/
